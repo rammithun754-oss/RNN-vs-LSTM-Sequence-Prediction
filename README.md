@@ -1,6 +1,6 @@
-# 🔄 RNN vs LSTM Long Sequence Prediction
+# 🔄 RNN vs LSTM Long Sequence Prediction using PyTorch
 
-A Deep Learning project comparing Recurrent Neural Networks (RNNs) and Long Short-Term Memory Networks (LSTMs) for long sequence forecasting.
+A Deep Learning project that compares Recurrent Neural Networks (RNNs) and Long Short-Term Memory Networks (LSTMs) on a long sequence forecasting task.
 
 The project trains both architectures on sequential numerical data and evaluates their ability to predict future values.
 
@@ -14,32 +14,32 @@ The project trains both architectures on sequential numerical data and evaluates
 
 ✅ LSTM implementation
 
-✅ Multi-layer architectures
+✅ Multi-layer recurrent networks
 
 ✅ Data normalization
 
-✅ Forecasting future values
+✅ Time-series forecasting
 
-✅ Performance comparison
+✅ Model comparison
 
 ---
 
 # 🧠 Model Architectures
 
-## RNN
+## RNN Model
 
-- Input Size = 1
-- Hidden Size = 64
-- Layers = 2
-- Fully Connected Output Layer
+- Input Size: 1
+- Hidden Size: 64
+- Layers: 2
+- Output Layer: Fully Connected
 
-## LSTM
+## LSTM Model
 
-- Input Size = 1
-- Hidden Size = 64
-- Layers = 2
+- Input Size: 1
+- Hidden Size: 64
+- Layers: 2
 - Memory Cell
-- Fully Connected Output Layer
+- Output Layer: Fully Connected
 
 ---
 
@@ -65,11 +65,29 @@ Target:
 
 22
 
-The model learns to predict the next value after a sequence of 20 numbers.
+The models learn to predict the next value after a sequence of 20 numbers.
+
+---
+
+# 🛠 Technologies Used
+
+- Python
+- PyTorch
+- NumPy
+- Scikit-Learn
 
 ---
 
 # ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/RNN-vs-LSTM-Long-Sequence-Prediction.git
+cd RNN-vs-LSTM-Long-Sequence-Prediction
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -77,7 +95,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Run
+# ▶️ Run Project
 
 ```bash
 python main.py
@@ -114,10 +132,10 @@ This project demonstrates:
 # 🔮 Future Improvements
 
 - GRU implementation
-- Stock market forecasting
-- Weather prediction
+- Transformer implementation
+- Stock Market Forecasting
+- Weather Prediction
 - Attention Mechanisms
-- Transformer comparison
 
 ---
 
@@ -125,4 +143,4 @@ This project demonstrates:
 
 Mithun Ram
 
-AI/ML Developer focused on Deep Learning and Sequence Modeling.
+AI/ML Developer focused on Deep Learning, Sequence Modeling, and Artificial Intelligence.
